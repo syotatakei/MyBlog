@@ -24,8 +24,10 @@
   <%= form.label :name %>
   <%= form.text_field :name, id: :message_name %>
  </div>
-
-
+ <div class="field">
+  <%= form.label :date %>
+  <%= form.number_field :date, id: :message_date %>
+ </div>
   <div class="actions">
     <%= form.submit %>
   </div>
